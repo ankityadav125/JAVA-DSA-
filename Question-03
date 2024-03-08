@@ -1,0 +1,19 @@
+//        Accept two integers from user and print the sum
+//        Ex - The sum of 45 & 12 = 57
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_03 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a first number:");
+        int num1= sc.nextInt();
+        System.out.println("Enter a second number:");
+        int num2=sc.nextInt();
+        int sum=num1+num2;
+        System.out.println("The sum of " +num1+ " & " +num2+ " = "+sum);
+
+    }
+}
