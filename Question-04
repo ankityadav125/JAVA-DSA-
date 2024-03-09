@@ -1,0 +1,18 @@
+//        Accept the User's name, age and print in following manner
+//        Ex - Hello Shery, you are 12 years old.
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_04 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name=sc.next();
+        System.out.println("Enter your age:");
+        int age=sc.nextInt();
+        System.out.println("Hello "+name+ ", you are "+age+ " years old");
+    }
+}
