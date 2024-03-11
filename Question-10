@@ -1,0 +1,16 @@
+//        Find surface area of sphere
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_10 {
+    public static void main(String[] args) {
+                Scanner sc=new Scanner(System.in);
+                System.out.print("Enter the radius of the sphere: ");
+                double radius = sc.nextDouble();
+                double area = 4 * Math.PI * Math.pow(radius, 2);
+                System.out.println("Surface area of the sphere: " +area);
+    }
+}
