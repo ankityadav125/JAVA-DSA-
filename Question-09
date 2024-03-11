@@ -1,0 +1,21 @@
+// Accept the three sides of triangle and calculate the area using herons formula.
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_09 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first side");
+        double s1=sc.nextDouble();
+        System.out.println("Enter second side");
+        double s2=sc.nextDouble();
+        System.out.println("Enter third side");
+        double s3=sc.nextDouble();
+        double side=(s1+s2+s3)/2;
+        double area = Math.sqrt(side * (side - s1) * (side - s2) * (side - s3));
+        System.out.println("Area of triangle is : "+area);
+    }
+}
