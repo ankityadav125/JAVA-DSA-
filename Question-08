@@ -1,0 +1,23 @@
+//    Accept the parameters and calculate the Compound Interest & print it on STDOUT (Use Math class methods)
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_08 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter principle amount:");
+        double amount=sc.nextDouble();
+        System.out.println("Enter rate:");
+        double rate=sc.nextDouble();
+        System.out.println("Enter time:");
+        double time=sc.nextDouble();
+        System.out.print("Enter the times interest is compounded per unit time: ");
+        int num=sc.nextInt();
+
+        double compoundInterest = amount * Math.pow(1 + (rate / (100 * num)), num * time) - amount;
+        System.out.println("Compound Interest : "+compoundInterest);
+    }
+}
