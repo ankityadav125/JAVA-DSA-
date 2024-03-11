@@ -1,0 +1,19 @@
+// Accept the length and width of a rectangle. Calculate & print the area and perimiter
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_07 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter lenght");
+        double lenght=sc.nextDouble();
+        System.out.println("Enter width:");
+        double width=sc.nextDouble();
+        double area=lenght*width;
+        double perimeter=2*(lenght+width);
+        System.out.println("Area of a rectangle is : "+area);
+        System.out.println("Perimeter of a rectangle is : "+perimeter);
+    }
+}
