@@ -1,0 +1,21 @@
+//        Extend the previous program and handle the wrong inputs. Print Good Morning sir for input m or M & Good morning Maam for input F or f else print Wrong Input
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_14 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter gender");
+        char gender = sc.next().toUpperCase().charAt(0);
+        if (gender == 'm' || gender == 'M') {
+            System.out.println("Good Morning Sir");
+                } else if (gender == 'f' || gender == 'F') {
+                    System.out.println("Good Morning Mam");
+                } else {
+            System.out.println("Invalid input");
+        }
+    }
+}
