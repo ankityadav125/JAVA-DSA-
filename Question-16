@@ -1,0 +1,23 @@
+//        Accept name and age from the user. Check if the user is a valid voter or not.
+//        Vaid - Hello Shery, You are a valid voter.
+//        Invalid - Sorry Shery, you can't cast the vote.
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_16 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name=sc.next();
+        System.out.println("Enter your age:");
+        int age=sc.nextInt();
+        if(age>18){
+            System.out.println("Hello "+name+ " , you are a valid voter");
+        } else {
+            System.out.println("Sorry "+name+ " , you can't cast the vote");
+        }
+    }
+}
