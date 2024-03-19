@@ -1,0 +1,21 @@
+//        Accept an english alphabet from user and check if it is a consonent or a vowel;
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_21 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+        System.out.print("Enter an English alphabet: ");
+        char ch = sc.next().toLowerCase().charAt(0);
+
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            System.out.println(ch+ " : is consonet");
+        } else {
+            System.out.println(ch+ " : is vowel");
+        }
+
+    }
+}
