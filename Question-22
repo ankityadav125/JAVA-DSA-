@@ -1,0 +1,17 @@
+//        Accept an integer and Print hello world n times
+
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_22 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num=sc.nextInt();
+        for(int i=1;i<=num;i++){
+            System.out.println("Hello World");
+        }
+    }
+}
