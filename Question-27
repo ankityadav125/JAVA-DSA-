@@ -1,0 +1,20 @@
+package Java_Questions;
+
+public class Question_27 {
+    public static void main(String[] args) {
+        int n1=1;
+        int n2=15;
+        int sumEven =0;
+        int sumOdd=0;
+        for(int i=n1;i<=n2;i++){
+            if(i%2==0){
+                sumEven+=i;
+            } else {
+                sumOdd+=i;
+            }
+        }
+        System.out.println("Sum of even numbers from " + n1 + " to " + n2 + " is: " + sumEven);
+        System.out.println("Sum of odd numbers from " + n1 + " to " + n2 + " is: " + sumOdd);
+    }
+}
+
