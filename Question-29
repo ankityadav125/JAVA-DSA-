@@ -1,0 +1,19 @@
+//        Java Program to Swap two numbers without using third variable.
+
+package Java_Questions;
+import java.util.Scanner;
+
+public class Question_29 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Value in a :");
+        int a=sc.nextInt();
+        System.out.println("Enter Value in b :");
+        int b=sc.nextInt();
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("Values in a:" +a);
+        System.out.println("Values in b:" +b);
+    }
+}
