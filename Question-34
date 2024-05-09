@@ -1,0 +1,19 @@
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_34 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a,no,sum=0;
+        System.out.println("Enter any number: ");
+        no=sc.nextInt();
+        while(no>0)
+        {
+            a=no%10;
+            no=no/10;
+            sum=sum+a;
+        }
+        System.out.println("Sum of Digits :"+sum);
+    }
+}
