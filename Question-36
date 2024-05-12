@@ -1,0 +1,23 @@
+//        Java Program to Perform Mathematical Operations.
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_36 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a, b, res;
+        System.out.print("Enter Two Numbers : ");
+        a = sc.nextInt();
+        b = sc.nextInt();
+        res = a + b;
+        System.out.println("Addition = " +res);
+        res = a - b;
+        System.out.println("Subtraction = " +res);
+        res = a * b;
+        System.out.println("Multiplication = " +res);
+        res = a / b;
+        System.out.println("Division = " +res);
+    }
+}
