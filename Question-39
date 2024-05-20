@@ -1,0 +1,17 @@
+//        Java Program to Convert Celsius to Fahrenheit.
+
+package Java_Questions;
+
+import java.util.Scanner;
+
+public class Question_39 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        float cen;
+        double fah;
+        System.out.print("Enter Temperature in Celsius : ");
+        cen = sc.nextFloat();
+        fah = (1.8*cen) + 32;
+        System.out.println("Temperature in Fahrenheit = " + fah);
+    }
+}
